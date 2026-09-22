@@ -11,14 +11,13 @@ import json
 #    },
 
 SKI_BINDINGS = [
-    #
+
     # Pivots
-    # 25/26 images
     {
         "name": "Pivot 11",
         "brand": "Look",
         "widths":[95, 105, 115],
-        "price": "279.95",
+        "price": "299.95",
         "image": "https://www.sportsbasement.com/cdn/shop/files/100288955_WHBK_1.png?v=1754107554",
         "notes": ""
     },
@@ -26,7 +25,7 @@ SKI_BINDINGS = [
         "name": "Pivot 13",
         "brand": "Look",
         "widths": [95, 105, 115],
-        "price": "379.95",
+        "price": "399.95",
         "image": "https://www.sportsbasement.com/cdn/shop/files/100288954_ORGM_1.png?crop=center&height=800&v=1754107555&width=800",
         "notes": ""
     },
@@ -34,10 +33,11 @@ SKI_BINDINGS = [
         "name": "Pivot 15",
         "brand": "Look",
         "widths": [95, 105, 115],
-        "price": "479.95",
+        "price": "499.95",
         "image": "https://www.sportsbasement.com/cdn/shop/files/100270601_ORMT_1.png?crop=center&height=800&v=1754107675&width=800",
         "notes": ""
     },
+    
     # Marker
     {
         "name": "Squire 11",
@@ -67,17 +67,18 @@ SKI_BINDINGS = [
         "name": "Griffon 13 X",
         "brand": "Marker",
         "widths": [90, 100, 110, 120],
-        "price": "299.99",
+        "price": "429.99",
         "image": "https://www.sportsbasement.com/cdn/shop/files/100305309_BLK_1.png?v=1779991584",
         "notes": ""
     },
+    
     # Salomon
     {
         "name": "Strive 10 GW",
         "brand": "Salomon",
         "widths": [80, 90, 100],
-        "price": "169.95",
-        "image": "https://www.sportsbasement.com/cdn/shop/files/L47320500__0c5a9dbca60d4437c35d372eec9fb188.png?crop=center&height=800&v=1754107708&width=800",
+        "price": "199.95",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100305014-LTGRYBLK-1.png?v=1783109903",
         "notes": "."
     },
     {
@@ -103,5 +104,71 @@ SKI_BINDINGS = [
         "price": "399.95",
         "image": "https://www.sportsbasement.com/cdn/shop/files/100248133-BLK-1.png?crop=center&height=800&v=1683821506&width=800",
         "notes": "."
-    }
+    },
+    {
+        "name": "S/Lab Shift2 13 MN",
+        "brand": "Salomon",
+        "widths": [90, 100, 110, 120],
+        "price": "679.95",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100248133-BLK-1.png?crop=center&height=800&v=1683821506&width=800",
+        "notes": "."
+    },
+    
+    # Youth
+    {
+        "name": "Youth C5 GW",
+        "brand": "Salomon",
+        "widths": [85],
+        "price": "119.95",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100305032-BLK-1.png?v=1783113785",
+        "notes": "."
+    },
+    {
+        "name": "Youth C7 GW",
+        "brand": "Salomon",
+        "widths": [90, 100],
+        "price": "129.95",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100305031-BLKMET-1.png?v=1783106451",
+        "notes": "."
+    },
+    
+    # Armada
+    {
+        "name": "Strive 12 GW",
+        "brand": "Armada",
+        "widths": [90, 100],
+        "price": "249.95",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100259251_GRN_1.png?v=1754107431",
+        "notes": "."
+    },
+    {
+        "name": "Strive 14 GW",
+        "brand": "Armada",
+        "widths": [90, 100, 115],
+        "price": "129.95",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100248213_MGRN_1.png?v=1782178029",
+        "notes": "."
+    },
+    
+    # Atomic
+    {
+        "name": "Strive 14 MN",
+        "brand": "Atomic",
+        "widths": [90, 100, 115],
+        "price": "129.95",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100248213_MGRN_1.png?v=1782178029",
+        "notes": "."
+    },
+    {
+        "name": "Strive 12 GW",
+        "brand": "Atomic",
+        "widths": [90, 100, 115],
+        "price": "129.95",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100248213_MGRN_1.png?v=1782178029",
+        "notes": "."
+    },
+
+
+
+
 ]

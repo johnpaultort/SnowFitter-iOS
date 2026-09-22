@@ -20,6 +20,8 @@ import json
 SKIS = [
     # Blizard (26/27 images)
     # Add Material used
+    
+    # Canvas
     {
         "name": "Canvas 118",
         "brand": "Blizzard",
@@ -62,6 +64,8 @@ SKIS = [
         "image": "https://www.sportsbasement.com/cdn/shop/files/100305172_WHT_1.png?v=1779322250",
         "notes": "Replace with your real product. Great all-rounder for mixed terrain."
     },
+    
+    # Rustler
     {
         "name": "Rustler 10",
         "brand": "Blizzard",
@@ -72,10 +76,25 @@ SKIS = [
         "preferences": ['powder', 'trees'],
         "waist_mm": 102,
         "lengths": [168, 174, 180, 186, 192],
+        "price": "849.99",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100295442_BLU_1.png?v=1766781510",
+        "notes": "Replace with your real product. Great all-rounder for mixed terrain."
+    },
+    {
+        "name": "Rustler 9",
+        "brand": "Blizzard",
+        "styles": ["freeride"],
+        "skill": ["intermediate", "advanced"],
+        "terrain": ["mixed"],
+        "local": "",
+        "preferences": ['powder', 'trees'],
+        "waist_mm": 96,
+        "lengths": [162, 168, 174, 180, 186],
         "price": "699.99",
         "image": "https://www.sportsbasement.com/cdn/shop/files/100295442_BLU_1.png?v=1766781510",
         "notes": "Replace with your real product. Great all-rounder for mixed terrain."
     },
+    
     # ARMADA (26/27 images)
     {
         "name": "ARV",
