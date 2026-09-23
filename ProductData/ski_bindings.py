@@ -56,21 +56,22 @@ SKI_BINDINGS = [
         "notes": ""
     },
     {
-        "name": "Griffon 13",
+        "name": "Griffon 13 X",
         "brand": "Marker",
         "widths": [90, 100, 110, 120],
         "price": "299.99",
-        "image": "https://www.sportsbasement.com/cdn/shop/files/100266735_BLK_1.png?crop=center&height=800&v=1750620997&width=800",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100305309_BLK_1.png?v=1779991584",
         "notes": ""
     },
     {
-        "name": "Griffon 13 X",
+        "name": "Griffon 13 X MWerks",
         "brand": "Marker",
         "widths": [90, 100, 110, 120],
         "price": "429.99",
         "image": "https://www.sportsbasement.com/cdn/shop/files/100305309_BLK_1.png?v=1779991584",
         "notes": ""
     },
+
     
     # Salomon
     {
@@ -167,7 +168,33 @@ SKI_BINDINGS = [
         "image": "https://www.sportsbasement.com/cdn/shop/files/100248213_MGRN_1.png?v=1782178029",
         "notes": "."
     },
-
+    
+    # Only 3 models
+    #Tyrolia
+    {
+        "name": "Protector Evo PR 11 GW",
+        "brand": "Tyrolia",
+        "widths": [85, 95],
+        "price": "319.00",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100306790_BLK_1.png?v=1778613642",
+        "notes": "."
+    },
+    {
+        "name": "Protector Evo PR 13 GW",
+        "brand": "Tyrolia",
+        "widths": [85, 95],
+        "price": "369.00",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100306789_BLK_1.png?v=1778613224",
+        "notes": "."
+    },
+    {
+        "name": "Protector+ Attack 14 GW",
+        "brand": "Tyrolia",
+        "widths": [95, 110, 120],
+        "price": "379.00",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100306788_WHT_1.png?v=1778610897",
+        "notes": "."
+    },
 
 
 
