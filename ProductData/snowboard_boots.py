@@ -1,19 +1,22 @@
 import json
 
-# Format
-#    {
-#        "name": "",
-#        "brand": "",
-#        "styles": [""],
-#        "flex": ,
-#        "sizes": [],
-#        "lacing": [],
-#        "price": "",
-#        "image": "",
-#        "notes": ""
-#    },
+"""
+    {
+        "name": "",
+        "brand": "",
+        "styles": [""],
+        "flex": ,
+        "sizes": [],
+        "lacing": [],
+        "price": "",
+        "image": "",
+        "notes": "",
+    },
+"""
+# I think for now just copy the notes that the website has gather a couple notes on the boots in store then change from there.
 
 BOOTS = [
+    # Ride
     {
         "name": "Lasso",
         "brand": "Ride",
@@ -22,8 +25,8 @@ BOOTS = [
         "sizes": [7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 13, 14, 15],
         "lacing": ["double-boa"],
         "price": "379.95",
-        "image": "https://www.sportsbasement.com/cdn/shop/files/100303347_BLK_1.png?crop=center&height=800&v=1778544478&width=800",
-        "notes": "One of the best boots for 25/26 season, was impossible to keep in stock. This boot gives one of the best heelholds in the game, can run a mile in these boots maybe more."
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100303347_BLK_1.png?crop=center&height=800&v=1778544478&width=800"
+        "notes": "This boot showed the most dominance in 25/26 season being nearly impossible to keep in stock. This boot secures the heel      ensuring maximum control. This boots lacing mechanism really allows the boots to get tight with their new H5 boa for the 26/27  season where the previous season the B.O.A can only tighten where as of now can really perfect the fit without loosening the whole dial. (Only front lace, not heel lace). This boot also offers calf adjustment for those larger calfs. This boot is meant for anyone from narrow to wide."
     },
     {
         "name": "Anthem",
@@ -34,7 +37,7 @@ BOOTS = [
         "lacing": ["single-boa"],
         "price": "289.95",
         "image": "https://www.sportsbasement.com/cdn/shop/files/100303348_BLK_1.png?crop=center&height=800&v=1778545677&width=800",
-        "notes": "."
+        "notes": "This is the cheaper alternative single B.O.A for someone who is either looking for a really soft boot. This boot is great for beginners that are looking for something to get into the sport."
     },
     {
         "name": "Lasso Pro",
@@ -45,7 +48,7 @@ BOOTS = [
         "lacing": ["double-boa"],
         "price": "459.95",
         "image": "https://www.sportsbasement.com/cdn/shop/files/100303345_BLK_1.png?crop=center&height=800&v=1778277477&width=800",
-        "notes": "."
+        "notes": "You might wonder why the Lasso Pro, well it comes with H5 B.O.A dials for both dials compared to the Lasso. This boot comes with a powder skirt for those deep days, Michelin sole for traction, burrito wrap liner compared to the lace liner in the Lasso. This boot is a stiffer boot that allows responsive ride feeling with a wide option as well."
     },
     {
         "name": "Deadbolt Zonal",
@@ -56,7 +59,7 @@ BOOTS = [
         "lacing": ["double-boa"],
         "price": "409.95",
         "image": "https://www.sportsbasement.com/cdn/shop/files/100303346_BLK_1.png?crop=center&height=800&v=1778543319&width=800",
-        "notes": "."
+        "notes": "The Deadbolt Zonal is packed with technology to make your life on-hill a tad easier, like an Intuition™ Support Foam Liner, a BOA® Zonal Fit System for extra hold and a liner integrated Tongue Tied™ Hybrid Harness, where the liner lace pull closes the liner harness and Tongue Tied™ system assuring an optimal fit. The Impact Rubber Cup Sole with Ride Fusion Rubber uses recycled premium rubber and Eco +Slime Midsole for traction and cushioning. The Deadbolt is a responsive all-mountain freestyle boot that combines comfort and support while allowing you to focus on what matters most, and that’s progressing your riding."
     },
     {
         "name": "Insano",
@@ -67,11 +70,10 @@ BOOTS = [
         "lacing": ["double-boa"],
         "price": "489.95",
         "image": "https://www.sportsbasement.com/cdn/shop/files/100303343_BLK_1.png?crop=center&height=800&v=1778275313&width=800",
-        "notes": "."
+        "notes": "Insano. Ask anyone who works in a snowboard shop about it. This is the boot that doesn’t mess around. The snowboard boot built for stability and performance to handle every condition. Fitted with RIDE’s Intuition™ Center Tongue Dream Liner for a supportive and customizable fit. BOA® Closer Wrap is a dial activated fit system that wraps over the midfoot of the foot for a more even closure to reduce pressure points, increase fit and provide better heel hold. The Insano also features the updated Flex Slime Tongue™ for better rebound and damping. The Michelin® Hybrid Traverse Outsole emphasizes grip and response underfoot. The Insano is the stiffest boot in the RIDE line by design, this thing is built for all-mountain response all the time."
     },
-    #
-    # K2 Boots (26/27)
-    # READY
+
+    # K2
     {
         "name": "Maysis",
         "brand": "K2",
@@ -81,7 +83,7 @@ BOOTS = [
         "lacing": ["double-boa"],
         "price": "379.95",
         "image": "https://www.sportsbasement.com/cdn/shop/files/100303471_BLK_1.png?v=1775852175",
-        "notes": "."
+        "notes": "K2 re-designed the Maysis to perform like a workhorse and fit like a glove, and its feature-forward design has it ranked as a perennial bestseller. It starts with a heat-moldable liner made of open-cell Intuition™ foam - allowing the liner to form to the exact shape of your leg, ankle, and foot for superior fit, warmth, and comfort. The secret to the award-winning fit is the Conda™ liner lacing system. Powered by a BOA® Fit System dial, this forgiving and adjustable harness is designed to pull the user's heel into the boot's heel pocket. This urethane-based harness hugs your ankle and flexes naturally. A high-powered BOA® Fit System H5 Coiler closes the shell securely and can be done without removing your gloves. Lastly, to add durability and maintain the boot's flex over the boot's lifetime, they constructed the K2 Maysis using Endo™ 3.0 technology. Underfoot, they've used premium materials to improve damping and grip. The outsole is built using proprietary This Grips!™ dual-rubber compound to provide excellent grip both on and off the snow. This is all set atop a dual-density midsole comprised of a lightweight EVA and our proprietary Harshmellow™, designed to dampen vibration on rough terrain and cushion big landings."
     },
     {
         "name": "Theory",
@@ -116,9 +118,8 @@ BOOTS = [
         "image": "https://www.sportsbasement.com/cdn/shop/files/100303468_GRY_1.png?v=1775856349",
         "notes": "."
     },
-    #
-    # Salomon (26/27)
-    # READY
+
+    # Salomon
     {
         "name": "Dialogue",
         "brand": "Salomon",
@@ -163,6 +164,7 @@ BOOTS = [
         "image": "https://www.sportsbasement.com/cdn/shop/files/100303316_BLK_1.png?v=1779123852",
         "notes": "."
     },
+    
     # Union
     {
         "name": "Reset Pro",
@@ -185,5 +187,210 @@ BOOTS = [
         "price": "549.95",
         "image": "https://www.sportsbasement.com/cdn/shop/files/100303384.Black.1.png?v=1780441049",
         "notes": "."
-    }
+    },
+    
+    # Burton
+    {
+        "name": "Highshot X Pro Step On",
+        "brand": "Burton",
+        "styles": ["all-mountain"],
+        "flex": 8,
+        "sizes": [8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12],
+        "lacing": ["step-on", "triple-boa"],
+        "price": "729.95",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100304047_BLK_1.png?v=1781887899",
+        "notes": "The Highshot X Pro Step On® is built for riders who go hard and want even more out of every run. A firm, responsive flex delivers instant edge response: when you move, the board moves with you. Three-zone BOA® control at the upper cuff, ankle, and forefoot lets you fine-tune the fit with precision, locking your heel down and giving you unmatched board control. And with Step On®, the moment you reach the top, you’re stepping in and dropping.",
+    },
+    {
+        "name": "Ion BOA",
+        "brand": "Burton",
+        "styles": ["all-mountain"],
+        "flex": 7,
+        "sizes": [8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12],
+        "lacing": ["double-boa"],
+        "price": "689.95",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100218742-BLK-2.png?v=1740083082",
+        "notes": "Season after season, the Ion sets the bar for responsive feel and out-of-the-box fit. The men's Burton Ion BOA® Snowboard Boots take it one step further with high-power micro-adjustable tensioning for the upper and lower boot. Combined with a firm flex, they support full-speed-ahead charging for riders who like to rip. Warm, dry feet and unmatched control for dropping lines and sticking landings are all yours.",
+    },
+    {
+        "name": "Highshot X Step On",
+        "brand": "Burton",
+        "styles": ["all-mountain"],
+        "flex": 6,
+        "sizes": [6, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 13, 14],
+        "wide_sizes": [8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12]
+        "lacing": ["double-boa", "step-on"],
+        "price": "529.95",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100304048_BLK_1.png?v=1781890681",
+        "notes": "Made for those who like a responsive, powerful boot, the men's Burton Highshot X Step On® Snowboard Boots give you total control of boot fit and tensioning to match its powerful flex. A Dual-Zone BOA® Fit System lets you independently adjust the upper and lower boot tension, including an internal ankle hammock, for the ultimate in micro-adjustable fit and feel. Add out-of-the-box comfort, and we're talking about a true step-on-and-go program for riders who like to rip.",
+    },
+    {
+        "name": "Highshot Plus Step On",
+        "brand": "Brand",
+        "styles": ["all-mountain"],
+        "flex": 4,
+        "sizes": [7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 13, 14, 15],
+        "lacing": ["double-boa" "step-on"],
+        "price": "449.95",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100304050_BKWH_1.png?v=1781891750",
+        "notes": "An innovative design made for those who like a responsive, powerful boot. The men's Burton Highshot Step On Snowboard Boots give you total control of boot fit and tension to match its powerful flex. The Dual Zone BOA® Fit System lets you adjust the upper and lower boot tension independently for a custom feel. Add out-of-the-box comfort of the wrap liner, and we're talking about a true step-on-and-go program for riders who like to rip.",
+    },
+    {
+        "name": "Ruler",
+        "brand": "Burton",
+        "styles": ["all-mountain"],
+        "flex": 5,
+        "sizes": [7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12],
+        "lacing": ["double-boa"],
+        "price": "359.95",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100304057_WHT_1.png?v=1781898002",
+        "notes": "With a legacy of pushing personal skills to the pro level, the men's Burton Ruler Snowboard Boots are the choice for stepping to larger drops, hitting burlier features, and pushing your skills. The ability to independently dial in the tension between the upper and forefoot lets you fine tune the fit and feel to match your ambitions. Their proven formula creates a medium stiff, responsive feel that's equally nimble and powerful. Warm feet and a custom fit keep you riding longer and thinking about your feet less.",
+    },
+    {
+        "name": "Highshot Step On",
+        "brand": "Burton",
+        "styles": ["all-mountain"],
+        "flex": 4,
+        "sizes": [6, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 13, 14],
+        "lacing": ["single-boa", "step-on"],
+        "price": "349.95",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100286237_BLK_1.png?v=1749593129",
+        "notes": "Made for those who like a responsive, powerful boot, the men's Burton Highshot Step On® Snowboard Boots give you total control of boot fit and tensioning to match its powerful flex. A Sequence BOA® Fit System lets you control the shell closure and tension around your foot with a single dial. Add out-of-the-box comfort, and we're talking about a true step-on-and-go program for riders who like to rip.",
+    },
+    {
+        "name": "Moto",
+        "brand": "Burton",
+        "styles": ["all-mountain"],
+        "flex": 2,
+        "sizes": [6, 7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 13, 14, 15],
+        "lacing": ["single-boa"],
+        "price": "279.95",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100170048_BLK_1.png?v=1743631416",
+        "notes": "Slide right past the break-in period with the Burton Moto BOA® Snowboard Boots. We are talking warm and comfortable right out of the box. Add lightweight liners that prioritize warm, dry feet and you'll be able to ride longer. The effortless micro-adjustability BOA® Fit System means a connected feel and no wasted time, while an ultralight outsole cushions every landing no matter how cold it gets.",
+    },
+    
+    # Womens Burton
+    {
+        "name": "Women's Highshot X Pro Step On",
+        "brand": "Burton",
+        "styles": ["all-mountain"],
+        "flex": 7,
+        "sizes": [6, 6.5, 7, 7.5, 8, 8.5, 9],
+        "lacing": ["triple-boa", "step-on"],
+        "price": "729.95",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100304052_BLK_1.png?v=1781889741",
+        "notes": "The Highshot X Pro Step On® is built for riders who go hard and want even more out of every run. A firm, responsive flex delivers instant edge response: when you move, the board moves with you. Three-zone BOA® control at the upper cuff, ankle, and forefoot lets you fine-tune the fit with precision, locking your heel down and giving you unmatched board control. And with Step On®, the moment you reach the top, you’re stepping in and dropping.",
+    },
+    {
+        "name": "Women's Highshot X Step On",
+        "brand": "Burton",
+        "styles": ["all-mountain"],
+        "flex": 6,
+        "sizes": [5, 6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10],
+        "lacing": ["double-boa", "step-on"],
+        "price": "529.95",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100304053_BLK_1.png?v=1781892758",
+        "notes": "Made for those who like a responsive, powerful boot, the women's Burton Highshot X Step On® Snowboard Boots give you total control of boot fit and tensioning to match its powerful flex. A Dual-Zone BOA® Fit System lets you independently adjust the upper and lower boot tension, including an internal ankle hammock, for the ultimate in micro-adjustable fit and feel. Add out-of-the-box comfort, and we're talking about a true step-on-and-go program for riders who like to rip.",
+    },
+    {
+        "name": "Women's Felix BOA",
+        "brand": "Burton",
+        "styles": ["all-mountain"],
+        "flex": 5,
+        "sizes": [5.5, 6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5],
+        "lacing": ["double-boa"],
+        "price": "479.95",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100304058_NPRP_1.png?v=1782152050",
+        "notes": "The only thing you need to worry about when you're riding in the women's Burton Felix BOA® Snowboard Boots is what run to hit next. They're packed with the tech to keep you warm and dry, plus a micro-adjustable fit that locks in a secure hold and lets you dial in the feel of the upper and lower to match your feet. And it's all packed into a responsive flex that encourages a relaxed stance and all-terrain versatility.",
+    },
+    {
+        "name": "Women's Highshot Plus Step On",
+        "brand": "Burton",
+        "styles": ["all-mountain"],
+        "flex": 5,
+        "sizes": [5, 6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10],
+        "lacing": ["double-boa", "step-on"],
+        "price": "449.95",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100304054_BLK_1.png?v=1781893525",
+        "notes": "An innovative design made for those who like a responsive, powerful boot. The men's Burton Highshot Step On Snowboard Boots give you total control of boot fit and tension to match its powerful flex. The Dual Zone BOA® Fit System lets you adjust the upper and lower boot tension independently for a custom feel. Add out-of-the-box comfort of the wrap liner, and we're talking about a true step-on-and-go program for riders who like to rip.",
+    },
+    {
+        "name": "Women's Highshot Step On",
+        "brand": "Burton",
+        "styles": ["all-mountain"],
+        "flex": 3,
+        "sizes": [5, 6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10],
+        "lacing": ["single-boa"],
+        "price": "349.95",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100304055_BLK_1.png?v=1781894411",
+        "notes": "Made for those who like a responsive, powerful boot, the women's Burton Highshot Step On® Snowboard Boots give you total control of boot fit and tensioning to match its powerful flex. A Sequence BOA® Fit System lets you control the shell closure and tension around your foot with a single dial. Add out-of-the-box comfort, and we're talking about a true step-on-and-go program for riders who like to rip.",
+    },
+    {
+        "name": "Women's Mint BOA",
+        "brand": "Burton",
+        "styles": ["all-mountain"],
+        "flex": 2,
+        "sizes": [5, 5.5, 6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10],
+        "lacing": ["single-boa"],
+        "price": "279.95",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100170047_BLK_1.png?v=1743630947",
+        "notes": "Soft, forgiving, and quick to adjust, the Burton Mint BOA® boots are ready for progression right out of the box. Effortlessly fine tune fit tension with the micro-adjustable BOA® Fit System, and cradle your feet in the lightweight cushioning of a DynoLITE outsole. The Mint's relaxed ride is matched by the added warmth of heat-reflective tech that seals in body heat to keep your toes warm and the custom feel of heat-moldable liners.",
+    },
+    
+    # Vans
+    {
+        "name": "Men's Infuse",
+        "brand": "Vans",
+        "styles": ["all-mountain", "freeride"],
+        "flex": ,
+        "sizes": [7, 7.5, 8, ],
+        "lacing": ["single-boa-lace"],
+        "price": "420.00",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100403421-CUMMINBLU-2.png?v=1790181939",
+        "notes": "The Infuse is about performance, plain and simple. As one of Vans most popular all-terrain, all-condition boots, it's loaded with top-shelf features like the Vans Flex Control System for control, Powercuff Strap for stability, a V3 Popcush Footbed for anatomical foot support, and a Hybrid Plus BOA Custom Fit System for quick adjustments anywhere you go. This boot has everything you want in a snowboard boot. The question is: what are you gonna do with it?",
+    },
+    {
+        "name": "",
+        "brand": "",
+        "styles": [""],
+        "flex": ,
+        "sizes": [],
+        "lacing": [],
+        "price": "",
+        "image": "",
+        "notes": "",
+    },
+    {
+        "name": "",
+        "brand": "",
+        "styles": [""],
+        "flex": ,
+        "sizes": [],
+        "lacing": [],
+        "price": "",
+        "image": "",
+        "notes": "",
+    },
+    {
+        "name": "",
+        "brand": "",
+        "styles": [""],
+        "flex": ,
+        "sizes": [],
+        "lacing": [],
+        "price": "",
+        "image": "",
+        "notes": "",
+    },
+    {
+        "name": "",
+        "brand": "",
+        "styles": [""],
+        "flex": ,
+        "sizes": [],
+        "lacing": [],
+        "price": "",
+        "image": "",
+        "notes": "",
+    },
 ]

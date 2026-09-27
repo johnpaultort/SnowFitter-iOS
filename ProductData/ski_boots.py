@@ -27,7 +27,7 @@ SKI_BOOTS = [
         "sizes": [24.5, 25.5, 26.5, 27.5, 28.5],
         "price": 699.95,
         "image": "URL",
-        "notes": "Excellent all-mountain boot with strong heel hold."
+        "notes": "."
     },
     
 # Armada
@@ -41,7 +41,7 @@ SKI_BOOTS = [
         "sizes": [25.5, 26.5, 27.5, 28.5, 29.5],
         "price": 799.95,
         "image": "URL",
-        "notes": "Great feeling boot that can go touring, the only other option is the mindbender for touring. This boot offers their sling on their side to output maximum hold."
+        "notes": ""
         
     },
     {
