@@ -94,7 +94,7 @@ BOOTS = [
         "lacing": ["double-boa"],
         "price": "409.95",
         "image": "https://www.sportsbasement.com/cdn/shop/files/100303465_BLK_1.png?v=1775850369",
-        "notes": "."
+        "notes": "Ok, here’s the deal. K2 wanted a boot that could keep up with the demands of modern snowboarding. Something packed with tech, loaded with performance, and clean enough to look good doing it. So, they did just that. The K2 Theory introduces F.O.R.M. (“Fit Optimization for Ride and Mobility”) Wrap Solution, an innovative three-panel design that wraps seamlessly from the medial to lateral side of your foot for a true custom fit. Powered by dual H5 BOA® dials, the upper shell tightens and actively draws your heel into the pocket, maximizing response while eliminating heel lift. Inside, the Intuition™ Control Foam 3D Wrap Liner brings a heat-moldable, dual-density foam that shapes perfectly for a fit that’s dialed, warm, and supremely comfortable. Add in the 3-Point Internal Harness, and you’ve got a locked-in feel that moves with you from first chair to final lap. Responsive and powerful when you're charging but forgiving enough to stay playful, the Vibram® V5 Outsole with Harshmellow™ damping eats up impact, grips icy boot packs, and keeps things feeling smooth. A reinforced rubber toe cap rounds things out for added durability and wet-weather defense."
     },
     {
         "name": "Orton",
@@ -105,7 +105,7 @@ BOOTS = [
         "lacing": ["double-boa"],
         "price": "489.95",
         "image": "https://www.sportsbasement.com/cdn/shop/files/100303464_BLK_1.png?v=1775848403",
-        "notes": "."
+        "notes": "It started with an idea. K2 snowboard boot scientists approached Team Rider Sage Kotsenburg with a new concept on snowboard boot construction - and the switch flipped, it was on. A first-of-it’s-kind construction comes from a one-piece rubber lower with integrated mesh. To boil it down, this means that the Orton will not only be waterproof, but also warm and dry, all day long. The one-piece-rubber lower is married with a dual-zone BOA® Fit System, making this a versatile boot, fitting feet of all shapes and sizes. Thousands and thousands of hours went into setting a new standard with the Orton. Sage knows that the devil is in the details… and he’s detailed. For the best performance in the bootpack, K2 chose a Vibram® V5 rubber outside. For ultimate damping and vibration absorption, they chose an Eco-Harshmellow™ injected midsole and Eco-Harshmellow™ Pro insole. For the best possible fit, a performance liner-lasting and a heat moldable, tri-density, Intuition™ Pro Foam 3D Liner. To top it all off, a rip-stop asym lace-cover with a gaiter hook keeps all the snow out."
     },
     {
         "name": "Raider",
@@ -116,7 +116,7 @@ BOOTS = [
         "lacing": ["single-boa"],
         "price": "279.95",
         "image": "https://www.sportsbasement.com/cdn/shop/files/100303468_GRY_1.png?v=1775856349",
-        "notes": "."
+        "notes": "With upgraded fit and functionality comes progression, and that’s precisely what K2 had in mind when they designed the Raider snowboard boot. A long-time favorite of resort employees and progressing snowboarders alike, K2 packed all the essentials into the mix in the Raider, starting with an H5 Coiler BOA® Fit System. This securely closes the shell using a stainless-steel BOA® lace for the perfect fit and helps to effortlessly get you in and out of your boots at the beginning and end of the day. Next, K2 added Fast-In liner lacing to maximize fit and keep the liner snug against the contours of your feet. No matter the shape of your foot, the ultra-warm, heat-moldable, and breathable Intuition™ Comfort Foam 3D liner hugs every nook and cranny for a great fit right out of the box. K2 added internal and external J-bars to the liner to increase responsiveness when turning, wrapping your ankles with support and cushion, and added an EVA footbed for comfort."
     },
 
     # Salomon
@@ -129,18 +129,18 @@ BOOTS = [
         "lacing": ["double-boa"],
         "price": "429.95",
         "image": "https://www.sportsbasement.com/cdn/shop/files/100303316_BLK_1.png?v=1779123852",
-        "notes": "."
+        "notes": "The Dialogue Dual BOA® features a precise fit and progressive flex focused on freestyle performance. This mid-flexing boot features zonal customization and a Precision Harness™ 3.0, securing your heel to provide an articulated fit. Built with FTR construction, the Dialogue offers a light and durable design with superior grip and dampening underfoot."
     },
     {
         "name": "Faction",
         "brand": "Salomon",
         "styles": ["all-mountain"],
-        "flex": 4,
+        "flex": 2,
         "sizes": [7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12],
         "lacing": ["double-boa"],
         "price": "279.95",
         "image": "https://www.sportsbasement.com/cdn/shop/files/100303320_BLK_1.png?v=1779130003",
-        "notes": "."
+        "notes": "The Faction BOA® brings everyday performance and a first-rate fit for those looking to progress. Inspired by Salomon footwear DNA, this boot combines durability and comfort in a lightweight design with a Feather 1.0 outsole, offering shock absorption and grip, and a heat moldable liner. Dial it all in with BOA® Fit System for a secure fit."
     },
     {
         "name": "Dialogue Lace",
@@ -151,7 +151,7 @@ BOOTS = [
         "lacing": ["lace"],
         "price": "399.95",
         "image": "https://www.sportsbasement.com/cdn/shop/files/100303318_RED_1.png?v=1779124475",
-        "notes": "."
+        "notes": "The Dialogue Lace SJ BOA® features a precise fit and progressive flex focused on freestyle performance. This mid-flexing boot features BOA® Fit System’s STR8JKT harness, securing your heel to provide a comfortable, articulated fit. Built with FTR construction, this boot offers a light and durable design with superior grip and dampening underfoot."
     },
     {
         "name": "X Approach Lace",
@@ -162,7 +162,7 @@ BOOTS = [
         "lacing": ["lace"],
         "price": "349.95",
         "image": "https://www.sportsbasement.com/cdn/shop/files/100303316_BLK_1.png?v=1779123852",
-        "notes": "."
+        "notes": "The X Approach Lace SJ BOA® is a unisex park and freestyle boot inspired by iconic Salomon footwear DNA. Utilizing premium materials and Fit To Ride construction, the X Approach offers superior comfort in a lightweight design along with BOA® activated STR8JKT, eliminating heel-lift for enhanced support."
     },
     
     # Union
@@ -175,18 +175,18 @@ BOOTS = [
         "lacing": ["double-boa"],
         "price": "649.95",
         "image": "https://www.sportsbasement.com/cdn/shop/files/100303383.Black.3.png?v=1780435792",
-        "notes": "."
+        "notes": "The Union Reset Pro is built for riders who demand uncompromising precision and control. Featuring Union’s patented Single Frame Shell, a powerful BOA® Fit System, and a rugged Vibram® outsole, it delivers pro-level response and durability in all conditions. Purpose-built for snowboarders at the highest level, the Reset Pro sets the new standard in boot performance."
     },
     {
         "name": "Reset",
         "brand": "Union",
         "styles": ["all-mountain"],
-        "flex": 6,
+        "flex": 7,
         "sizes": [8, 8.5, 9, 9.5, 10, 10.5, 11],
         "lacing": ["double-boa"],
         "price": "549.95",
         "image": "https://www.sportsbasement.com/cdn/shop/files/100303384.Black.1.png?v=1780441049",
-        "notes": "."
+        "notes": "The Union Reset is built for riders who want premium performance with zero break-in time. Featuring Union’s patented Single Frame Shell™ and a secure BOA® Fit System, it delivers unmatched out-of-the-box comfort and all-mountain capability. Responsive yet forgiving, the Reset strikes the perfect balance of support and ease for snowboarders who ride it all."
     },
     
     # Burton
@@ -341,8 +341,8 @@ BOOTS = [
     {
         "name": "Men's Infuse",
         "brand": "Vans",
-        "styles": ["all-mountain", "freeride"],
-        "flex": ,
+        "styles": ["all-mountain", "freeride", "park"],
+        "flex": 7,
         "sizes": [7, 7.5, 8, ],
         "lacing": ["single-boa-lace"],
         "price": "420.00",
@@ -350,47 +350,90 @@ BOOTS = [
         "notes": "The Infuse is about performance, plain and simple. As one of Vans most popular all-terrain, all-condition boots, it's loaded with top-shelf features like the Vans Flex Control System for control, Powercuff Strap for stability, a V3 Popcush Footbed for anatomical foot support, and a Hybrid Plus BOA Custom Fit System for quick adjustments anywhere you go. This boot has everything you want in a snowboard boot. The question is: what are you gonna do with it?",
     },
     {
-        "name": "",
-        "brand": "",
-        "styles": [""],
-        "flex": ,
-        "sizes": [],
-        "lacing": [],
-        "price": "",
-        "image": "",
-        "notes": "",
+        "name": "Men's Invado OG",
+        "brand": "Vans",
+        "styles": ["all-mountain", "park"],
+        "flex": 4,
+        "sizes": [7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 13],
+        "lacing": ["single-boa-lace"],
+        "price": "235.00",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100278871-BLKWHT-3.png?v=1727895298",
+        "notes": "The Invado OG combines a Vans classic look with the solution to an age-old snowboarding problem—the lack of a decent heel hold. The Vans Hybrid BOA Fit System merges traditional lacing and the power of a BOA closure at the instep with the Custom Slide Guide to provide targeted and instantly customizable heel hold in any terrain or situation. This makes the Invado OG an easy choice for any rider looking for style and performance at an incredible value.",
     },
     {
-        "name": "",
-        "brand": "",
-        "styles": [""],
-        "flex": ,
-        "sizes": [],
-        "lacing": [],
-        "price": "",
-        "image": "",
-        "notes": "",
+        "name": "Men's Aura Pro 2.0",
+        "brand": "Vans",
+        "styles": ["freeride", "all-mountain"],
+        "flex": 5,
+        "sizes": [7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 13],
+        "lacing": ["double-boa"],
+        "price": "330.00",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100403419-BLKWHT-1.png?v=1790177782",
+        "notes": "The Aura Pro 2.0 brings a fresh, modern look to one of Vans most versatile all-mountain boots. With a slightly stiffer flex and a fit that stays supportive from first chair to last, it’s built for riders who want dependable control without giving up comfort. The dual-zone BOA® Fit System makes micro-adjustments quick and easy, while the inside delivers warmth and cushioning for long days on snow. Style, comfort, and all-around performance—this updated design delivers it all.",
+    },
+    
+    # Women's Vans
+    {
+        "name": "Women's Encore Pro 2.0",
+        "brand": "Vans",
+        "styles": ["freeride", "all-mountain"],
+        "flex": 5,
+        "sizes": [5, 5.5, 6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 11],
+        "lacing": ["double-boa"],
+        "price": "310.00",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100403424.PortRoyale.1.png?v=1790613432",
+        "notes": "The Encore Pro 2.0 brings new energy to one of Van's most trusted women’s boots. With refined lines, an updated flex profile, and a dialed-in fit, it delivers the comfort and control riders rely on from first chair to last. The dual-zone BOA® Fit System tightens quickly and evenly, while the inside packs in the warmth and cushioning needed for full days on the mountain. Dependable, responsive, and easy to ride—this is why the Encore Pro has been a cornerstone in the line for years.",
+    },
+    
+    # Nidecker
+    {
+        "name": "Rift Pro",
+        "brand": "Nidecker",
+        "styles": ["park", "resort"],
+        "flex": 5,
+        "sizes": [7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 13],
+        "lacing": ["double-boa"],
+        "price": "429.95",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100301491_BLK_1.png?v=1790104220",
+        "notes": "A premium version of a mid-soft team favorite, the Rift Pro offers a relaxed flex that's perfect for creative riding anywhere on the mountain. The latest H5 BOA® dials provide complete control over the fit, while a Silver heat-moldable liner and 3D Pro insole ensure total comfort from day one. The sleek looks are on point too, with an upgraded KPU lower section and Armor-Tech toe that will keep your feet protected in the gnarliest of terrain.",
     },
     {
-        "name": "",
-        "brand": "",
-        "styles": [""],
-        "flex": ,
-        "sizes": [],
-        "lacing": [],
-        "price": "",
+        "name": "Altai",
+        "brand": "Nidecker",
+        "styles": ["resort"],
+        "flex": 5,
+        "sizes": [7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12, 13, 14],
+        "lacing": ["double-boa"],
+        "price": "319.95",
         "image": "",
-        "notes": "",
+        "notes": "The Altai is the centerpiece of our boot collection, offering premium features and support at an exceptional price. It’s built around an asymmetrical upper that minimizes pressure points, with dual H5 BOA® dials to allow you to tighten the upper and lower sections independently. The responsive, mid-stiff flex is great for digging trenches in the piste or floating through forests with pinpoint accuracy. If you love the art of the turn, you’ll love this boot.",
     },
+    
+    # Thirtytwo
     {
-        "name": "",
-        "brand": "",
-        "styles": [""],
-        "flex": ,
-        "sizes": [],
-        "lacing": [],
-        "price": "",
-        "image": "",
-        "notes": "",
+        "name": "Lashed Double BOA",
+        "brand": "ThirtyTwo",
+        "styles": ["all-mountain"],
+        "flex": 6,
+        "sizes": [7, 7.5, 8, 8.5, 9, 9.5, 10, 10.5, 11, 11.5, 12],
+        "lacing": ["double-boa"],
+        "price": "399.95",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100400989_BBG_1.png?v=1786748728",
+        "notes": "The Lashed is a true hall-of-famer in the ThirtyTwo lineup. A longtime team favorite, it delivers the perfect balance of medium flex, support, and enhanced liner fit for riders who demand consistency. Add in the Performance Rubber Outsole, plush Evolution Foam cushioning, and a weather-blocking tongue cover, and you’ve got a boot built to keep you dry, comfortable, and charging from first chair to last lap.",
     },
+    
+    # Women's ThirtyTwo
+    {
+        "name": "Women's Lashed Double BOA",
+        "brand": "ThirtyTwo",
+        "styles": ["all-mountain"],
+        "flex": 6,
+        "sizes": [5, 5.5, 6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5],
+        "lacing": ["double-boa"],
+        "price": "399.95",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100400999_MRSH_1.png?v=1786751094",
+        "notes": "The Lashed Double Boa is a team favorite with well balanced medium flex, support, enhanced liner fit and the added benefit of the Dual BOA fit system featuring H5 coiler on the tongue. With Performance Rubber Outsole, Evolution Foam Cushioning and a new tongue cover to keep you dry.",
+    },
+
+
 ]
