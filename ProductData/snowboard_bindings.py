@@ -41,382 +41,189 @@ import json
 
 SB_BINDINGS = [
 
-    # Union Bindings
-    # 25/26 images
-    # Ultra and Strata no update only
-
-    {
-        "gender": ["mens"],
-        "name": "Strata",
-        "brand": "Union",
-        "style": ["park", "all-mountain"],
-        "skill": ["beginner", "intermediate", "advanced"],
-        "sizes": [
-            {
-                "size": "S",
-                "boot_sizes": "5.5-7.5"
-            },
-            {
-                "size": "M",
-                "boot_sizes": "8-10"
-            },
-            {
-                  "size": "L",
-                  "boot_sizes": "10.5-13"
-            }
-        ],
-        "flex": 5,
-        "pattern": ["4x2", "channel"],
-        "type": "traditional",
-        "price": "279.95",
-        "image": "https://www.sportsbasement.com/cdn/shop/files/100303410.Black.1.png?v=1780954286",
-        "notes": "The Strata has a mini disk that allows the binding to carry a soft surfy feeling. Smaller contact point and allows your            board to flex naturally."
-    },
-    {
-        "gender": ["mens"],
-        "name": "Force",
-        "brand": "Union",
-        "style": ["all-mountain", "park"],
-        "skill": ["beginner", "intermediate", "advanced"],
-        "sizes": [
-            {
-                "size": "S",
-                "boot_sizes": "5.5-7.5"
-            },
-            {
-                "size": "M",
-                "boot_sizes": "8-10"
-            },
-            {
-                "size": "L",
-                "boot_sizes": "10.5-13"
-            }
-        ],
-        "flex": 7,
-        "pattern": ["4x4", "4x2", "channel"],
-        "type": "traditional",
-        "price": "349.95",
-        "image": "https://www.sportsbasement.com/cdn/shop/files/100303407.Force.Black.1.png?v=1780696910",
-        "notes": "The Union Force is the ultimate do-it-all binding trusted by riders worldwide. With a smooth, responsive flex and                  bombproof construction, it’s built to handle any terrain, any rider, any condition."
-    },
-    {
-        "gender": ["mens"],
-        "name": "Falcor",
-        "brand": "Union",
-        "style": ["freeride", "park", "all-mountain"],
-        "skill": ["intermediate", "advanced"],
-        "sizes": [
-            {
-                "size": "S",
-                "boot_sizes": "5.5-7.5"
-            },
-            {
-                "size": "M",
-                "boot_sizes": "8-10"
-            },
-            {
-                "size": "L",
-                "boot_sizes": "10.5-13"
-            }
-          ],
-                    
-        "flex": 7,
-        "pattern": ["4x2", "channel"],
-        "type": "traditional",
-        "price": "439.95",
-        "image": "https://www.sportsbasement.com/cdn/shop/files/100303402.Black.1.png?v=1780676964",
-        "notes": "Precision-engineered for the demands of Travis Rice, the Union Falcor is built for riders who push the limits of big mountain snowboarding. Lightweight, responsive, and ultra-durable, it blends power and precision for aggressive freeride performance."
-    },
-    {
-        "gender": ["mens"],
-        "name": "Atlas",
-        "brand": "Union",
-        "style": ["all-mountain", "carving", "park", "freeride"],
-        "skill": ["intermediate", "advanced"],
-        "sizes": [
-            {
-                "size": "S",
-                "boot_sizes": "5.5-7.5"
-            },
-            {
-                "size": "M",
-                "boot_sizes": "8-10"
-            },
-            {
-                "size": "L",
-                "boot_sizes": "10.5-13"
-            }
-        ],
-        "flex": 8,
-        "pattern": ["4x4", "4x2", "channel"],
-        "type": "traditional",
-        "price": "399.95",
-        "image": "https://www.sportsbasement.com/cdn/shop/files/100303406.Atlas.Black.1.png?v=1780693194",
-        "notes": "."
-    },
-    {
-        "gender": ["mens"],
-        "name": "Ultra",
-        "brand": "Union",
-        "style": ["park", "all-mountain"],
-        "skill": ["intermediate", "advanced"],
-        "sizes": [
-            {
-                "size": "S",
-                "boot_sizes": "5.5-7.5"
-            },
-            {
-                "size": "M",
-                "boot_sizes": "8-10"
-            },
-            {
-                "size": "L",
-                "boot_sizes": "10.5-13"
-            }
-        ],
-        "flex": 6,
-        "pattern": ["4x2", "channel"],
-        "type": "traditional",
-        "price": "329.95",
-        "image": "https://unionbindingcompany.com/cdn/shop/files/UN25_ULTRA_BLACK_1024x.jpg?v=1753276418",
-        "notes": "."
-    },
-    {
-        "gender": ["mens"],
-        "name": "Neo",
-        "brand": "Union",
-        "style": ["park", "all-mountain"],
-        "skill": ["beginner", "intermediate", "advanced"],
-        "sizes": [
-            {
-                "size": "S",
-                "boot_sizes": "5.5-7.5"
-            },
-            {
-                "size": "M",
-                "boot_sizes": "8-10"
-            },
-            {
-                "size": "L",
-                "boot_sizes": "10.5-13"
-            }
-        ],
-        "flex": 6,
-        "pattern": ["4x2", "channel"],
-        "type": "traditional",
-        "price": "379.95",
-        "image": "https://www.sportsbasement.com/cdn/shop/files/100303403.Neo.White.1.png?v=1780680369",
-        "notes": "."
-    },
-    {
-        "gender": ["mens"],
-        "name": "STR",
-        "brand": "Union",
-        "style": ["all-mountain"],
-        "skill": ["beginner"],
-        "sizes": [
-            {
-                "size": "S",
-                "boot_sizes": "5.5-7.5"
-            },
-            {
-                "size": "M",
-                "boot_sizes": "8-10"
-            },
-            {
-                "size": "L",
-                "boot_sizes": "10.5-13"
-            }
-        ],
-        "flex": 6,
-        "pattern": ["4x2", "4x4", "channel"],
-        "type": "traditional",
-        "price": "199.95",
-        "image": "https://www.sportsbasement.com/cdn/shop/files/100303408.STR.Black.1.png?v=1780704023",
-        "notes": "."
-    },
-    {
-        "gender": ["mens"],
-        "name": "Atlas Step On",
-        "brand": "Union",
-        "style": ["park", "all-mountain", "freeride"],
-        "skill": ["intermediate", "advanced"],
-        "sizes": [
-            {
-                "size": "S",
-                "boot_sizes": "6-8"
-            },
-            {
-                "size": "M",
-                "boot_sizes": "8.5-10.5"
-            },
-            {
-                "size": "L",
-                "boot_sizes": "11-13"
-            },
-            {
-                "size": "XL",
-                "boot_sizes": "14-15"
-            }
-        ],
-        "flex": 8,
-        "pattern": ["4x2", "channel"],
-        "type": "step-on",
-        "price": "429.95",
-        "image": "https://www.sportsbasement.com/cdn/shop/files/100303392.Black.1.png?v=1780506580",
-        "notes": "."
-    },
-    {
-        "gender": ["mens"],
-        "name": "Atlas Step On Pro",
-        "brand": "Union",
-        "style": ["park", "all-mountain"],
-        "skill": ["beginner", "intermediate", "advanced"],
-        "sizes": [
-            {
-                "size": "S",
-                "boot_sizes": "5.5-7.5"
-            },
-            {
-                "size": "M",
-                "boot_sizes": "8-10"
-            },
-            {
-                "size": "L",
-                "boot_sizes": "10.5-13"
-            }
-        ],
-        "flex": 6,
-        "pattern": ["4x2", "channel"],
-        "type": "step-on",
-        "price": "499.95",
-        "image": "https://www.sportsbasement.com/cdn/shop/files/100303385.Black.1.png?v=1780499173",
-        "notes": "."
-    },
-    {
-        "gender": ["mens"],
-        "name": "Source",
-        "brand": "Union",
-        "style": ["all-mountain", "carving", "freeride"],
-        "skill": ["beginner", "intermediate", "advanced"],
-        "sizes": [
-            {
-                "size": "M",
-                "boot_sizes": "8-10"
-            },
-            {
-                "size": "L",
-                "boot_sizes": "10.5-13"
-            }
-        ],
-        "flex": 7,
-        "pattern": ["4x2", "channel"],
-        "type": "traditional",
-        "price": "549.95",
-        "image": "https://www.sportsbasement.com/cdn/shop/files/100303400.Source.Black.1.png?v=1780612051",
-        "notes": "."
-    },
+    # UNION BINDINGS
     {
         "gender": ["mens"],
         "name": "Source FC",
         "brand": "Union",
-        "style": ["all-mountain", "freeride", "carving"],
-        "skill": ["beginner", "intermediate", "advanced"],
-        "sizes": [
-            {
-                "size": "M",
-                "boot_sizes": "8-10"
-            },
-            {
-                "size": "L",
-                "boot_sizes": "10.5-13"
-            }
-        ],
+        "style": ["freeride", "all-mountain", "park"],
+        "sizes": ["M", "L"],
         "flex": 8,
-        "pattern": ["4x2", "channel"],
+        "pattern": ["4x2"],
         "type": "traditional",
         "price": "999.95",
         "image": "https://www.sportsbasement.com/cdn/shop/files/100303396.FCBlack.1.png?v=1780606599",
-        "notes": "."
+        "notes": "The connection between rider and snowboard has never been closer. They removed the mounting disk, reduced the baseplate height, and cut hundreds of grams of excess weight. The result completely changes how your energy transfers from body to board. The Union Source FC puts you in the driver’s seat. Are you ready for the ride?",
     },
     {
         "gender": ["mens"],
         "name": "Source Pro TH",
         "brand": "Union",
-        "style": ["park", "all-mountain"],
-        "skill": ["beginner", "intermediate", "advanced"],
-        "sizes": [
-            {
-                "size": "M",
-                "boot_sizes": "8-10"
-            },
-            {
-                "size": "L",
-                "boot_sizes": "10.5-13"
-            }
-        ],
+        "style": ["park", "freeride", "all-mountain"],
+        "sizes": ["M", "L"],
+        "flex": 7,
+        "pattern": ["4x2"],
+        "type": "traditional",
+        "price": "699.95",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100303397.SourceProTH.Black.1.png?v=1780610364",
+        "notes": "Designed with Torstein Horgmo, the all-new Union Source Pro TH blends freestyle freedom with pro-level performance. A new highback gives it a more playful, freestyle-focused feel, while cushioned Hybrid 3.0 ankle straps deliver the perfect balance of comfort, control, and response. Built for riders who want precision without restriction.",
+    },
+    {
+        "gender": ["mens"],
+        "name": "Source",
+        "brand": "Union",
+        "style": ["all-mountain", "park", "freeride"],
+        "sizes": ["M", "L"],
         "flex": 6,
+        "pattern": ["4x2"],
+        "type": "traditional",
+        "price": "549.95",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100303400.Source.Black.1.png?v=1780612051",
+        "notes": "The Union Source delivers a balanced ride for snowboarders who want dependable performance without the aggressive feel of the Source FC or Source Pro. A more forgiving highback, wider ankle straps, and a nylon baseplate create a setup that’s comfortable, supportive, and still keeps the close connection to the snowboard.",
+    },
+    {
+        "gender": ["mens"],
+        "name": "Atlas Pro Step On",
+        "brand": "Union",
+        "style": ["all-mountain", "freeride"],
+        "sizes": ["M", "L", "XL"],
+        "flex": 8,
+        "pattern": ["4x2", "channel"],
+        "type": "step-on",
+        "price": "499.95",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100303385.Black.1.png?v=1780499173",
+        "notes": "Precision meets power. The Union Atlas Pro Step On® delivers all-mountain performance with the convenience of Step On® technology. An all-new highback with a forged carbon beam, paired with the new Drive Frame rear bushing, increases stiffness to deliver unmatched power and edge-to-edge response without sacrificing comfort or control.",
+    },
+    {
+        "gender": ["mens"],
+        "name": "Atlas Pro",
+        "brand": "Union",
+        "style": ["all-mountain", "freeride", "park"],
+        "sizes": ["M","L"],
+        "flex": 9,
+        "pattern": ["4x2", "4x4", "channel"],
+        "type": "traditional",
+        "price": "499.95",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100303401.Black.1.png?v=1780672134",
+        "notes": "The Union Atlas Pro is built for riders who demand instant response and uncompromising control. Designed for intermediate to advanced snowboarders, this all-mountain powerhouse uses Italian-made Forged Carbon and Duraflex CB nylon to create a lightweight, hyper-responsive ride.The Union Atlas Pro is built for riders who demand instant response and uncompromising control. This all-mountain powerhouse uses Italian-made Forged Carbon and Duraflex CB nylon to create a lightweight, hyper-responsive ride.",
+    },
+    {
+        "gender": ["mens"],
+        "name": "Falcor",
+        "brand": "Union",
+        "style": ["freeride", "all-mountain", "park"],
+        "sizes": ["S", "M", "L"],
+        "flex": 7,
         "pattern": ["4x2", "channel"],
         "type": "traditional",
-        "price": "999.95",
-        "image": "https://www.sportsbasement.com/cdn/shop/files/100303397.SourceProTH.Black.1.png?v=1780610364",
-        "notes": "."
+        "price": "439.95",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100303402.Black.1.png?v=1780676964",
+        "notes": "Precision engineered for Travis Rice, the Union Falcor is made for riders who push the limits of big mountain snowboarding. Lightweight, responsive, and ultra durable, it features a unique Forged Hybrid highback and Stage 12 Duraflex CB baseplate for maximum control at high speeds and on critical terrain.",
+    },
+    {
+        "gender": [],
+        "name": "",
+        "brand": "",
+        "style": [],
+        "sizes": [],
+        "flex": ,
+        "pattern": [],
+        "type": "",
+        "price": "",
+        "image": "",
+        "notes": "",
+    },
+    {
+        "gender": ["mens"],
+        "name": "Force",
+        "brand": "Union",
+        "style": ["all-mountain", "park", "freeride"],
+        "sizes": ["S", "M", "L", "XL"],
+        "flex": 7,
+        "pattern": ["4x2", "4x4", "channel"],
+        "type": "traditional",
+        "price": "349.95",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100303407.Force.Black.1.png?v=1780696910",
+        "notes": "The newest generation of the Union Force delivers a smooth yet responsive ride that works for any rider, in any condition, in any terrain. More snowboarders around the globe choose to ride the Force than any other binding on the market today. Ride like the best—ride the Force.",
+    },
+    {
+        "gender": ["mens"],
+        "name": "Strata",
+        "brand": "Union",
+        "style": ["park", "all-mountain"],
+        "sizes": ["S","M","L"],
+        "flex": ,
+        "pattern": [],
+        "type": "traditional",
+        "price": "279.95",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100303410.Black.1.png?v=1780954286",
+        "notes": "Union’s #1 men’s park and freestyle binding. The Strata is built for riders who want to press, pop, and play across the entire mountain. With a soft, surfy flex and industry-leading shock absorption, it delivers a buttery ride that doesn't compromise on control.",
+    },
+    {
+        "gender": [],
+        "name": "",
+        "brand": "",
+        "style": [],
+        "sizes": [],
+        "flex": ,
+        "pattern": [],
+        "type": "",
+        "price": "",
+        "image": "",
+        "notes": "",
+    },
+    {
+        "gender": [],
+        "name": "",
+        "brand": "",
+        "style": [],
+        "sizes": [],
+        "flex": ,
+        "pattern": [],
+        "type": "",
+        "price": "",
+        "image": "",
+        "notes": "",
+    },
+    {
+        "gender": [],
+        "name": "",
+        "brand": "",
+        "style": [],
+        "sizes": [],
+        "flex": ,
+        "pattern": [],
+        "type": "",
+        "price": "",
+        "image": "",
+        "notes": "",
+    },
+    {
+        "gender": [],
+        "name": "",
+        "brand": "",
+        "style": [],
+        "sizes": [],
+        "flex": ,
+        "pattern": [],
+        "type": "",
+        "price": "",
+        "image": "",
+        "notes": "",
+    },
+    {
+        "gender": [],
+        "name": "",
+        "brand": "",
+        "style": [],
+        "sizes": [],
+        "flex": ,
+        "pattern": [],
+        "type": "",
+        "price": "",
+        "image": "",
+        "notes": "",
     },
 
-    # 26/27 images
-    # Jones Bindings
-    {
-        "gender": ["mens", "womens"],
-        "name": "Nebula FASE",
-        "brand": "Jones",
-        "style": ["park", "all-mountain"],
-        "skill": ["beginner", "intermediate", "advanced"],
-        "sizes": [
-            {
-                "size": "S",
-                "boot_sizes": "5-8"
-            },
-            {
-                "size": "M",
-                "boot_sizes": "8.5-10.5"
-            },
-            {
-                "size": "L",
-                "boot_sizes": "11-14"
-            }
-        ],
-        "flex": 4,
-        "pattern": ["4x4", "4x2", "channel"],
-        "type": "fase",
-        "price": "299.95",
-        "image": "https://www.sportsbasement.com/cdn/shop/files/100308731_TBR_1.png?v=1780069215",
-        "notes": "."
-    },
-    {
-        "gender": ["mens", "womens"],
-        "name": "Mercury FASE",
-        "brand": "Jones",
-        "style": ["freeride", "all-mountain"],
-        "skill": ["intermediate", "advanced"],
-        "sizes": [
-            {
-                "size": "S",
-                "boot_sizes": "5-8"
-            },
-            {
-                "size": "M",
-                "boot_sizes": "8.5-10.5"
-            },
-            {
-                "size": "L",
-                "boot_sizes": "11-14"
-            }
-        ],
-        "flex": 8,
-        "pattern": ["4x4", "4x2", "channel"],
-        "type": "fase",
-        "price": "369.95",
-        "image": "https://www.sportsbasement.com/cdn/shop/files/100308731_TBR_1.png?v=1780069215",
-        "notes": "."
-    }
+
 ]
