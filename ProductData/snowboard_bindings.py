@@ -729,7 +729,7 @@ SB_BINDINGS = [
         "sizes": ["S", "M", "L"],
         "flex": 6,
         "pattern": ["4x4", "4x2", "channel"],
-        "type": "supermatic",
+        "type": "fase",
         "price": "349.95",
         "image": "https://www.sportsbasement.com/cdn/shop/files/100400969_FWHT_1.png?v=1786744556",
         "notes": "Engineered to own every line, the T32M FASE® binding locks you in from pow to park. With unrivaled support, mind-bending flex and uncompromising durability, it's built for the ultimate ride... every single time. As for boot-to-binding connection? Meet your new teammate."

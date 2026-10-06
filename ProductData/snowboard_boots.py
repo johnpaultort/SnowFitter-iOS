@@ -384,6 +384,17 @@ BOOTS = [
         "image": "https://www.sportsbasement.com/cdn/shop/files/100403424.PortRoyale.1.png?v=1790613432",
         "notes": "The Encore Pro 2.0 brings new energy to one of Van's most trusted women’s boots. With refined lines, an updated flex profile, and a dialed-in fit, it delivers the comfort and control riders rely on from first chair to last. The dual-zone BOA® Fit System tightens quickly and evenly, while the inside packs in the warmth and cushioning needed for full days on the mountain. Dependable, responsive, and easy to ride—this is why the Encore Pro has been a cornerstone in the line for years.",
     },
+    {
+        "name": "Women's Encore OG",
+        "brand": "Vans",
+        "styles": ["park", "all-mountain"],
+        "flex": 4,
+        "sizes": [5, 5.5, 6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5, 10, 11],
+        "lacing": ["single-boa"],
+        "price": "245.00",
+        "image": "https://www.sportsbasement.com/cdn/shop/files/100403423-MARSHCHECK-1.png?v=1790711414",
+        "notes": "The Encore OG streamlines comfort and fit through its single-dial BOA® Fit System for precise, on-the-fly adjustability anywhere you go. With a PopCush™ Footbed for advanced impact protection and a Waffle Lug Outsole for traction in all conditions, the Encore OG is built for every trail, feature, and hit you can find at the resort. With a V1 Waffle Lug outsole and classic Sidestripe™ for unmistakable Vans style, you'll look good doing it, too.",
+    },
     
     # Nidecker
     {
