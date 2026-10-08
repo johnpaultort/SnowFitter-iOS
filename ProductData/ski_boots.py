@@ -660,6 +660,5 @@ SKI_BOOTS = [
         "price": 899.95,
         "image": "https://www.sportsbasement.com/cdn/shop/files/100288931_BRBK_1.png?v=1754107446",
         "notes": ""
-    },
-
+    }
 ]

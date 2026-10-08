@@ -444,7 +444,5 @@ BOOTS = [
         "price": "399.95",
         "image": "https://www.sportsbasement.com/cdn/shop/files/100400999_MRSH_1.png?v=1786751094",
         "notes": "The Lashed Double Boa is a team favorite with well balanced medium flex, support, enhanced liner fit and the added benefit of the Dual BOA fit system featuring H5 coiler on the tongue. With Performance Rubber Outsole, Evolution Foam Cushioning and a new tongue cover to keep you dry.",
-    },
-
-
+    }
 ]
